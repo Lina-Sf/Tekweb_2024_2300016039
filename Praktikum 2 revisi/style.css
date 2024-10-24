@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(147, 216, 248);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 80%;
+    object-fit: cover;
+    border: 6px solid #00796b;
+}
+
+.section {
+    background-color: #f5f1d8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #058197;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.info {
+    margin-top: 25px;
+}
+
+.info p {
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f5f7b154;
+    margin: 8px;
+    border-left: 4px solid #00796b;
+}
+.label {
+    font-weight: bold;
+    color: #004d40;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+.projects .project-item {
+    margin: 10px 0;
+}
+
+.project-title {
+    color: #27c2e9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-title:hover {
+    text-decoration: underline;
+}
+
+.contact a {
+    color: #45c4f7;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+.btn-icon {
+    padding: 12px 24px;
+    background-color: #07a8ad; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-icon i {
+    margin-right: 8px; 
+}
